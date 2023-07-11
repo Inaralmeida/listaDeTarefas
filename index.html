@@ -12,7 +12,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Lista de Tarefas</title>
   </head>
-  <body></body>
+  <body>
+    <main class="container">
+      <img src="./img/detalhe_prancheta.png" alt="detalhe prancheta" class="detalhe_prancheta" />
+
+      <div class="content">
+        <section class="header">
+          <h1>LISTA DE TAREFAS</h1>
+        </section>
+
+        <section class="list">
+          <form class="form_new_task">
+            <input type="text" aria-label="Input para criar nova nota" placeholder="Nova tarefa" />
+            <span role="button" aria-label="botão de adicionar nova nota">
+              <img src="./img/plus.svg" alt="plus" />
+            </span>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
