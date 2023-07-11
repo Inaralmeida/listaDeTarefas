@@ -70,6 +70,10 @@
   padding: 8px 10px;
   border-bottom: 1px solid var(--blueShadow);
 }
+.button_options {
+  display: flex;
+  gap: 10px;
+}
 
 .btn {
   width: 24px;
@@ -84,4 +88,12 @@
 
 .btn:hover {
   background-color: var(--blue100);
+}
+
+.visivel {
+  display: flex;
+}
+
+.invisivel {
+  display: none;
 }

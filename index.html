@@ -40,13 +40,52 @@
           <ul class="content-list">
             <li class="task">
               <p>Comprar pão</p>
-              <div class="button_options">
+              <div class="button_options" id="default">
                 <span
                   class="btn btn-set-status"
                   aria-label="Botão alterar status da tarefa"
                   role="button"
                 >
                   <img src="./img/check.svg" alt="check" />
+                </span>
+                <span class="btn btn-more" aria-label="Botão para mostar mais opções" role="button">
+                  <img src="./img/dotsThreeVertical.svg" alt="mais opções" />
+                </span>
+              </div>
+              <div class="button_options invisivel" id="more_options ">
+                <span
+                  class="btn btn-edit-task"
+                  aria-label="Botão alterar o titulo da tarefa"
+                  role="button"
+                >
+                  <img src="./img/pencilSimple.svg" alt="lapis" />
+                </span>
+                <span class="btn btn-delete-task" aria-label="Botão excluir tarefa" role="button">
+                  <img src="./img/trash-simple.svg" alt="lixeira" />
+                </span>
+
+                <span
+                  class="btn btn-cancel-action"
+                  aria-label="Botão voltar para opções inicias"
+                  role="button"
+                >
+                  <img src="./img/X.svg" alt="x" />
+                </span>
+              </div>
+              <div class="button_options invisivel" id="edit_options ">
+                <span
+                  class="btn btn-save-edit"
+                  aria-label="Botão salvar a alteração da  tarefa"
+                  role="button"
+                >
+                  <img src="./img/check.svg" alt="check" />
+                </span>
+                <span
+                  class="btn btn-cancel-action"
+                  aria-label="Botão voltar para opções inicias"
+                  role="button"
+                >
+                  <img src="./img/X.svg" alt="x" />
                 </span>
               </div>
             </li>
