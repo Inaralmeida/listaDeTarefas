@@ -1,5 +1,5 @@
 .container {
-  width: 500px;
+  width: 660px;
   height: 80vh;
 }
 
@@ -18,4 +18,55 @@
   border: 40px solid var(--blue900);
   border-radius: 12px;
   background-color: var(--white);
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue400);
+}
+
+.list {
+  width: 100%;
+  height: calc(100% - 70px);
+  padding: 10px;
+}
+
+.form_new_task {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 2px dashed var(--blackShadow);
+}
+
+.new_task {
+  width: 80%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.content-list {
+  width: 100%;
+  height: calc(100% - 50px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.task {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--blueShadow);
 }
